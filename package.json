@@ -1,0 +1,35 @@
+{
+  "name": "transguard",
+  "version": "1.0.0",
+  "description": "AI-powered FinTech Support Investigation API for SUST Codex Community Hackathon",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "lint": "echo \"No lint configured\"",
+    "test": "echo \"No tests configured\""
+  },
+  "keywords": [
+    "express",
+    "node",
+    "gemini",
+    "hackathon",
+    "fintech",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^1.16.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
