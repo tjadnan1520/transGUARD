@@ -382,11 +382,3 @@ Render provides `PORT` automatically. The server reads it from `process.env.PORT
 ## Local Validation
 
 The `tests/data` folder contains official sample and edge-case JSON packs used for manual validation. They are not required for production runtime, but keeping them is useful for regression checks before submission.
-
-## Notes for Judges and Reviewers
-
-- The backend is intentionally deterministic for investigation decisions.
-- It avoids guessing when multiple plausible transactions exist.
-- It returns `relevant_transaction_id: null` when evidence is ambiguous or insufficient.
-- It supports English, Bangla, and Banglish complaints through rule-based keyword and evidence matching.
-- It is designed to keep responding safely even when Gemini is unavailable.
