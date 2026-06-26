@@ -8,3 +8,4 @@ const router = Router();
 router.post("/", analyzeTicketValidator, validate, analyzeTicket);
 
 export default router;
+//routes implied
